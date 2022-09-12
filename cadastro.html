@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Trabalho avaliativo</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <form id="form_cadastro" action="./usuarioCadastrado.html">
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+
+                    <legend>Informações Pessoais</legend>
+
+                    <div class="input-wrapper">
+                        <label for="nome_cadastro">Nome</label>
+                        <input type="text" required id="nome_cadastro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="cpf_cadastro">CPF</label>
+                        <input type="number" required id="cpf_cadastro" />
+                    </div>
+
+                    <div class="col-3">
+                        <div class="input-wrapper">
+                            <label for="data_nasc">Data de nascimento</label>
+                            <input type="date" required id="data_nasc" />
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="telefone_cadastro">Telefone</label>
+                        <input type="number" required id="telefone_cadastro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email_cadastro">E-mail</label>
+                        <input type="email" required id="email_cadastro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="senha_cadastro">Senha</label>
+                        <input type="password" required id="senha_cadastro" />
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+
+                    <legend>Endereço</legend>
+
+                    <div class="input-wrapper">
+                        <label for="endereço_cadastro">Endereço<span>(Rua e número da casa)</span></label>
+                        <input type="text" required id="endereço_cadastro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="cep_cadastro">CEP</label>
+                        <input type="number" required id="cep_cadastro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="bairro_cadastro">Bairro</label>
+                        <input type="text" required id="bairro_cadastro" />
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -20,8 +20,8 @@ main{
 }
 
 .logo img{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     display: flex;
 }
 
@@ -34,7 +34,7 @@ nav {
     position: fixed;
     align-items: center;
     background-color: grey;
-    border-bottom: solid 1rem black;
+    border-bottom: solid 0.8rem black;
 }
 
 ul {
@@ -43,7 +43,6 @@ ul {
     list-style: none;
     gap: 3.8rem;
     font-size: 1.6rem;
-    color: rgb(140, 255, 249);
 }
 
 ul a {
@@ -100,6 +99,11 @@ ul a {
 
 .produtos section p{
     margin-bottom: 1rem;
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
 }
 
 footer{

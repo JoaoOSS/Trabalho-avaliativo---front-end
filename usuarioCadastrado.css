@@ -9,7 +9,7 @@
 }
 
 button{
-    background-color: blueviolet;
+    background-color:  rgb(48, 59, 90);
     color: white;
     border-radius: 0.8rem;
     width: 10rem;
@@ -28,7 +28,7 @@ body::before {
     top: 0;
     left: 0;
     z-index: -1;
-    background: rgba(48, 90, 62, 1)
+    background:  rgb(48, 59, 90);
 }
 
 .page {

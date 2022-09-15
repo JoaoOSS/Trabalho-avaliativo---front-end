@@ -35,7 +35,7 @@ nav {
     position: fixed;
     align-items: center;
     background-color:  rgb(48, 59, 90);
-    border-bottom: solid 0.8rem lightgrey;
+    border-bottom: solid 0.8rem #4defba;
 }
 
 ul {
@@ -52,7 +52,7 @@ ul a {
 }
 
 #carrinho1{
-    margin-left: 54rem;
+    margin-left: 74rem;
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -75,7 +75,6 @@ ul a {
     margin-top: 2rem;
     margin-left: 5rem;
     margin-bottom: 2rem;
-    /* margin-left: 10rem; */
     display: flex;
     gap: 52rem;
     justify-content: center;
@@ -101,6 +100,11 @@ ul a {
 
 .produtos section p{
     margin-bottom: 1rem;
+}
+
+#Monitor{
+    width: 14rem;
+    height: 14rem;
 }
 
 .produtos a{

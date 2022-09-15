@@ -4,8 +4,57 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-size: 62,5%;
+}
+
+.page{
+    margin-top: 8rem;
+    width: 900px;
+    margin: 0 auto 0;
+    justify-content: center;
+}
+
+main{
+    padding: 5rem;
+}
+
+.logo img{
+    margin-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    gap: 4rem;
+    padding: 2rem;
+    height: 6rem;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color:  rgb(48, 59, 90);
+    border-bottom: solid 0.8rem #4defba;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3.8rem;
+    font-size: 1.6rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#carrinho1{
+    margin-left: 74rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 button{
@@ -31,11 +80,6 @@ body::before {
     background:  rgb(48, 59, 90);
 }
 
-.page {
-    width: 736px;
-    margin: 0 auto;
-}
-
 form {
     margin-top: 10rem;
     padding: 3rem;
@@ -51,5 +95,4 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    /* justify-content: center; */
 }

@@ -53,11 +53,10 @@ ul {
 ul a {
     text-decoration: none;
     color: white;
-    /* color: rgb(255, 255, 255); */
 }
 
 #carrinho1{
-    margin-left: 54rem;
+    margin-left: 74rem;
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -92,6 +91,11 @@ span{
     text-decoration-color: blue;
 }
 
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .sobre h2{
     display: flex;
     justify-content: center;
@@ -115,9 +119,10 @@ span{
 
 .sobre hr{
     width: 10rem;
-    border: 2px solid lightgrey;
+    border: 2px solid rgb(48, 59, 90);
     border-radius: 8rem;
-    margin-left: 8rem;
+    margin-left: 5.2rem;
+    margin-top: 2rem;
 }
 
 .estrelas img{
@@ -143,9 +148,25 @@ span{
     border: 0.5px solid lightgrey;
 }
 
-#seta{
-    width: 1rem;
-    height: 1rem;
+#seta, #addCarrinho, #addFavorito{
+    width: 4rem;
+    height: 4rem;
+}
+
+.add_seta{
     display: flex;
-    margin-left: 22rem;
+    gap: 3rem;
+}
+
+legend{
+    font-size: 1.7rem;
+}
+
+.Preços legend{
+    font-size: 1.2rem;
+}
+
+.Preços span{
+    color: red;
+    font-size: 1.5rem;
 }
